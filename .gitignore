@@ -1,0 +1,49 @@
+# ============================================================
+#  .gitignore  —  DSE of Fault Simulation Algorithms
+# ============================================================
+
+# Binaries & Executables
+fsim
+*.exe
+*.out
+*.app
+
+# Compiled Object Files & Libraries
+*.o
+*.obj
+*.so
+*.dylib
+*.a
+*.la
+*.lai
+
+# Debug Symbols
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# IDE & Editor Specific Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+
+# Scratch & Temporary Logs
+scratch/
+*.log
+*.tmp
+*.bak
+*~
+*.swp

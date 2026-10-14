@@ -1,0 +1,13 @@
+Metric,Serial,ParallelPattern,Concurrent
+ComputationTimeMs,0.07,0.035,0.047
+FaultCoveragePct,100,100,100
+UndetectedFaults,0,0,0
+OriginalVectors,32,32,32
+CompactedVectors,10,7,10
+
+Sweep_VectorCount,SFS_Cov,SFS_TimeMs,PPFS_Cov,PPFS_TimeMs,CFS_Cov,CFS_TimeMs
+2,33.3333,0.008,33.3333,0.004,33.3333,0.006
+4,41.6667,0.012,41.6667,0.004,41.6667,0.006
+8,66.6667,0.025,66.6667,0.005,66.6667,0.014
+16,87.5,0.03,87.5,0.006,87.5,0.02
+32,100,0.041,100,0.009,100,0.029
